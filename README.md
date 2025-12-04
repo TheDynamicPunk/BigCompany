@@ -62,6 +62,14 @@ Use at runtime:
 
 ### **Run the application**
 
+Clean and build package
+
+```bash
+mvn clean package
+```
+
+Run these commands in the root of the project
+
 ``` bash
 mvn exec:java "-Dexec.args=src/main/resources/employees.csv --format=pretty"
 ```
@@ -75,7 +83,7 @@ mvn exec:java "-Dexec.args=src/main/resources/employees.csv --format=json"
 ### **Run tests**
 
 ``` bash
-./gradlew test
+mvn test
 ```
 
 ## 📌 CSV File Format
