@@ -61,16 +61,8 @@ class SalaryAnalyzerTest {
                 "CEO should NOT be flagged as an overpaid/underpaid manager"
         );
 
-        // Optional: verify numeric values
-
-        // Expected avg = (40000 + 42000) / 2 = 41000
-        // minAllowed = 41000 * 1.2 = 49200
-        // difference = 49200 - 30000 = 19200
         assertEquals(49200 - 30000, under.difference(), 0.01);
 
-        // Expected avg = 30000
-        // maxAllowed = 45000
-        // difference = 90000 - 45000 = 45000
         assertEquals(90000 - 45000, over.difference(), 0.01);
     }
 }
