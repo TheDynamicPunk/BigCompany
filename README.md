@@ -9,13 +9,6 @@ It reports:
 2.  **Managers who earn more than they should**
 3.  **Employees with more than 4 managers between them and the CEO**
 
-Designed to be:
-
--   Clean and readable
--   Easy to test
--   Easy to run
--   No external dependencies (Java SE + JUnit only)
-
 ## 🚀 Features
 
 ### ✔️ CSV Parsing
@@ -47,7 +40,7 @@ CEO.
 
 Use at runtime:
 
--   `--format=pretty` (default): human-friendly, clean output\
+-   `--format=pretty` (default): human-friendly, clean output
 -   `--format=json`: structured machine-friendly output
 
 ## 📁 Project Structure
